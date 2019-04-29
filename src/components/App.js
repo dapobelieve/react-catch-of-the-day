@@ -101,8 +101,14 @@ class App extends React.Component {
                         }
                     </ul> 
                 </div>
-                <Order removeFromOrder={this.removeFromOrder} fishes={this.state.fishes} order={this.state.order}/>
-                <Inventory deleteFish={this.deleteFish} updateFish={this.updateFish} fishes={this.state.fishes} addFish={this.addFish} loadData={this.loadSampleFishes} />
+                <Order  removeFromOrder={this.removeFromOrder} 
+                        fishes={this.state.fishes} 
+                        order={this.state.order}/>
+                <Inventory  deleteFish={this.deleteFish} 
+                            updateFish={this.updateFish} 
+                            fishes={this.state.fishes} 
+                            addFish={this.addFish} 
+                            loadData={this.loadSampleFishes} />
             </div>
         )
     }

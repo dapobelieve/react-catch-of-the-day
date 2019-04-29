@@ -3,7 +3,7 @@ import React from "react";
 class EditFish extends React.Component
 {
     handleChange = (event) => {
-        console.log(event.currentTarget.value)
+        // console.log(event.currentTarget.value)
         let updatedFish = {
             ...this.props.fish,
             [event.currentTarget.name]: event.currentTarget.value
